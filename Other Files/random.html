@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+            background: url('https://source.unsplash.com/random/1920x1080/?wallpaper,landscape');
+            
+            position: relative;
+        }
+        .body{
+            /* border: 1px solid green; */
+            height: 100vh;
+            width: 100vw;
+            margin: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            justify-content: center;
+            
+            
+        }
+        .img{
+            border: 1px solid rgba(255, 99, 71, 0.511);
+            height: 300px;
+            width: 400px;
+            margin: 5px;
+            border-radius: 8px;
+            cursor: pointer;
+            position: relative;
+            overflow: auto;
+        }
+        #frist:hover{
+            height: 410px;
+            width: 610px;
+            background: url('https://source.unsplash.com/random/610x410/?wallpaper,landscape');
+            background-repeat: no-repeat;
+            transition: 1s;
+        }
+        #second:hover{
+            height: 410px;
+            width: 610px;
+            background: url('https://source.unsplash.com/random/610x410/?wallpaper,fruit');
+            background-repeat: no-repeat;
+            transition: 1s;
+        }
+        #third:hover{
+            height: 410px;
+            width: 610px;
+            background: url('https://source.unsplash.com/random/610x410/?wallpaper,tree');
+            background-repeat: no-repeat;
+            transition: 1s;
+        }
+        #fourth:hover{
+            height: 410px;
+            width: 610px;
+            transition: 1s;
+            background: url('https://source.unsplash.com/random/610x410/?wallpaper,human');
+            background-repeat: no-repeat;
+        }
+        #five:hover{
+            height: 410px;
+            width: 610px;
+            transition: 1s;
+            background: url('https://source.unsplash.com/random/610x410/?wallpaper,sea');
+            background-repeat: no-repeat;
+        }
+        #six:hover{
+            height: 410px;
+            width: 610px;
+            transition: 1s;
+            background: url('https://source.unsplash.com/random/610x410/?wallpaper,cat');
+            background-repeat: no-repeat;
+        }
+        #seven:hover{
+            height: 410px;
+            width: 610px;
+            transition: 1s;
+            background: url('https://source.unsplash.com/random/610x410/?wallpaper,animal');
+            background-repeat: no-repeat;
+        }
+        #eight:hover{
+            height: 410px;
+            width: 610px;
+            transition: 1s;
+            background: url('https://source.unsplash.com/random/610x410/?wallpaper,sky');
+            background-repeat: no-repeat;
+        }
+        #nine:hover{
+            height: 410px;
+            width: 610px;
+            transition: 1s;
+            background: url('https://source.unsplash.com/random/610x410/?wallpaper,sun');
+            background-repeat: no-repeat;
+        }
+        #ten:hover{
+            height: 410px;
+            width: 610px;
+            transition: 1s;
+            background: url('https://source.unsplash.com/random/610x410/?wallpaper,universe');
+            background-repeat: no-repeat;
+        }
+        #eleven:hover{
+            height: 410px;
+            width: 610px;
+            transition: 1s;
+            background: url('https://source.unsplash.com/random/610x410/?wallpaper,girl');
+            background-repeat: no-repeat;
+        }
+        #twelve:hover{
+            height: 410px;
+            width: 610px;
+            transition:1s;
+            background: url('https://source.unsplash.com/random/610x410/?wallpaper,dog');
+            background-repeat: no-repeat;
+        }
+        /* here i am using hover property */
+        #frist{
+            background: url('https://source.unsplash.com/random/400x300/?wallpaper,landscape');
+            background-repeat: no-repeat;
+        }
+        #second{
+            background: url('https://source.unsplash.com/random/400*300/?wallpaper,fruit');
+            background-repeat: no-repeat;
+        }
+        #third{
+            background: url('https://source.unsplash.com/random/400*300/?wallpaper,tree');
+            background-repeat: no-repeat;
+        }
+        #fourth{
+            background: url('https://source.unsplash.com/random/400*300/?wallpaper,human');
+            background-repeat: no-repeat;
+        }
+        #five{
+            background: url('https://source.unsplash.com/random/400*300/?wallpaper,sea');
+            background-repeat: no-repeat;
+        }
+        #six{
+            background: url('https://source.unsplash.com/random/400*300/?wallpaper,cat');
+            background-repeat: no-repeat;
+        }
+        #seven{
+            background: url('https://source.unsplash.com/random/400*300/?wallpaper,animal');
+            background-repeat: no-repeat;
+        }
+        #eight{
+            background: url('https://source.unsplash.com/random/400*300/?wallpaper,sky');
+            background-repeat: no-repeat;
+        }
+        #nine{
+            background: url('https://source.unsplash.com/random/400*300/?wallpaper,sun');
+            background-repeat: no-repeat;
+        }
+        #ten{
+            background: url('https://source.unsplash.com/random/400*300/?wallpaper,universe');
+            background-repeat: no-repeat;
+        }
+        #eleven{
+            background: url('https://source.unsplash.com/random/400*300/?wallpaper,girl');
+            background-repeat: no-repeat;
+        }
+        #twelve{
+            background: url('https://source.unsplash.com/random/400x300/?wallpaper,dog');
+            background-repeat: no-repeat;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="body">
+        <div class="img" id="frist"></div>
+        <div class="img" id="second" ></div>
+        <div class="img" id="third"></div>
+        <div class="img" id="fourth"></div>
+        <div class="img" id="five"></div>
+        <div class="img" id="six"></div>
+        <div class="img" id="seven"></div>
+        <div class="img" id="eight"></div>
+        <div class="img" id="nine"></div>
+        <div class="img" id="ten"></div>
+        <div class="img" id="eleven"></div>
+        <div class="img" id="twelve"></div>
+        
+    </div>
+</body>
+</html>

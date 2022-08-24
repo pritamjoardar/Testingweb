@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div div{
+            
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        div div:hover{
+            border: 1px solid black;
+        }
+        #container{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            flex-wrap: wrap;
+            
+            
+        }
+        #Frist{
+            background-color: blueviolet;
+        }
+        #Second{
+            background-color: pink;
+        }
+        #Third{
+            background-color: skyblue;
+        }
+        #Fourth{
+            background-color: green;
+        }
+        #Fifth{
+            background-color: yellow;
+        }
+        #Six{
+            background-color: orange;
+        }
+        #Seven{
+            background-color: red;
+        }
+        
+        
+    </style>
+</head>
+<body id="body">
+    <div id="container">
+        <div id="Frist"></div>
+        <div id="Second"></div>
+        <div id="Third"></div>
+        <div id="Fourth"></div>
+        <div id="Fifth"></div>
+        <div id="Six"></div>
+        <div id="Seven"></div>
+    </div>
+    <script>
+        let frist=document.getElementById("Frist") ;
+        let second=document.getElementById("Second") ;
+        let third=document.getElementById("Third") ;
+        let fourth=document.getElementById("Fourth") ;
+        let fifth=document.getElementById("Fifth") ;
+        let six=document.getElementById("Six") ;
+        let seven=document.getElementById("Seven") ;
+        let cont=document.getElementById("body") ;
+
+        frist.addEventListener("click",violet);
+        second.addEventListener("click",pink);
+        third.addEventListener("click",sky);
+        fourth.addEventListener("click",green);
+        fifth.addEventListener("click",yellow);
+        six.addEventListener("click",orange);
+        seven.addEventListener("click",red);
+
+        function violet(){
+            body.style.backgroundColor="blueviolet" ;
+        }
+        function pink(){
+            body.style.backgroundColor="pink" ;
+        }
+        function sky(){
+            body.style.backgroundColor="skyblue" ;
+        }
+        function green(){
+            body.style.backgroundColor="green" ;
+        }
+        function yellow(){
+            body.style.backgroundColor="yellow" ;
+        }
+        function orange(){
+            body.style.backgroundColor="orange" ;
+        }
+        function red(){
+            body.style.backgroundColor="red" ;
+        }
+    </script>
+</body>
+</html>

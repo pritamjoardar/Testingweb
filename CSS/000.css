@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+.con{
+    background-image: url('https://source.unsplash.com/random/1920x1080/?wallpaper,landscape');
+    width: 100wh;
+    height: 100vh;
+   
+    
+}
+
+a:hover{
+    background-color: gray;
+    height: 10px;
+    font-size: 20px;
+    transition: 2s;
+}
+a{
+    text-decoration: none;
+    color: red;
+    border: 1px solid black;
+    display: inline;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: Rock Salt, sans-serif;
+}
+
+.body{
+    border: 1px solid black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+div{
+    margin: 10px;
+}
